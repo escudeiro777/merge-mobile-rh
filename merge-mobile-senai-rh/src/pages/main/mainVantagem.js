@@ -5,13 +5,12 @@ import {
     View,
 } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import NovoFeedback from "../novoFeedback/NovoFeedback.js";
 
 import Redirecionar from "../redirecionamento/redirecionamento.js";
-import ListagemCurso from '../listagemCurso/ListagemCurso.js';
-import ListagemDesconto from '../listagemDesconto/ListagemDesconto.js';
-import Favoritos from '../favoritos/FavoritosCurso.js';
-import FavoritosDesconto from '../favoritos/FavoritosDesconto.js';
+import ListagemCurso from '../curso/listagemCurso.js';
+import ListagemDesconto from '../desconto/listagemDesconto.js';
+import Favoritos from '../favoritos/favoritosCurso.js';
+import FavoritosDesconto from '../favoritos/favoritosDesconto.js';
 import Perfil from '../perfil/perfil.js';
 // import MainFavoritos from '../main/MainFavoritos.js';
 import { Entypo, Feather } from "@expo/vector-icons";
@@ -69,20 +68,18 @@ export default function MainAcompanhar() {
             />
 
             <Tab.Screen
-                name="NovoFeedback"
-                component={NovoFeedback}
+                name="Redirecionar"
+                component={Redirecionar}
                 options={{
-                    tabBarIcon: ({ size, color }) => (
-                        <ButtonNew size={40} color={color} />
-                    ),
+                    tabBarIcon: ({ color }) => <ButtonNew size={40} color={color} />,
                     tabBarLabel: "",
                     headerShown: false,
                 }}
                 listeners={{
-                    tabPress: e => {
+                    tabPress: (e) => {
                         // Prevent default action
                         navigation.goBack();
-                    }
+                    },
                 }}
             />
             <>

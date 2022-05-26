@@ -32,7 +32,7 @@ import {
 } from "@expo-google-fonts/quicksand";
 
 // Services
-import api from "../../services/api";
+import api from "../../services/apiGp3";
 import apiGp1 from "../../services/apiGp1";
 import jwtDecode from "jwt-decode";
 
@@ -256,7 +256,7 @@ export default function Perfil() {
       <KeyboardAvoidingView style={styles.container}>
         <Image
           style={styles.logoSenai}
-          source={require("../../../assets/imgMobile/logo_2S.png")}
+          source={require("../../../assets/img-geral/logo_2S.png")}
           resizeMode="contain"
         />
 
@@ -274,7 +274,7 @@ export default function Perfil() {
                               "https://armazenamentogrupo3.blob.core.windows.net/armazenamento-simples/" +
                               usuario.caminhoFotoPerfil,
                           }
-                        : require("../../../assets/imgMobile/Perfil.png")
+                        : require("../../../assets/img-gp3/Perfil.png")
                     }
                     resizeMod="cover"
                   />
@@ -346,7 +346,7 @@ export default function Perfil() {
                             "https://armazenamentogrupo3.blob.core.windows.net/armazenamento-simples/" +
                             usuario.caminhoFotoPerfil,
                         }
-                      : require("../../../assets/imgMobile/Perfil.png")
+                      : require("../../../assets/img-gp3/Perfil.png")
                   }
                   resizeMod="cover"
                 />

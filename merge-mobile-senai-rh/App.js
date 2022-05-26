@@ -10,9 +10,9 @@ import Redirecionar from './src/pages/redirecionamento/redirecionamento.js'
 // import Perfil from './src/pages/perfil/perfil.js';
 
 //mains
-import MainAcompanhar from './src/pages/main/mainAcompanhar'
-import MainMotivar from './src/pages/main/mainMotivar.js';
-import MainVantagem from './src/pages/main/mainVantagem'
+import mainAcompanhar from './src/pages/main/mainAcompanhar.js';
+import mainMotivar from './src/pages/main/mainMotivar.js';
+import mainVantagem from './src/pages/main/mainVantagem.js';
 
 // //gp1
 import recuperarSenha from "./src/pages/alterarSenha/recuperarSenha";
@@ -50,9 +50,9 @@ function App() {
         {/* <Stack.Screen name="Perfil" component={Perfil} /> */}
 
       {/* mains */}
-        <Stack.Screen name="MainAcompanhar" component={MainAcompanhar} />
-        <Stack.Screen name="MainMotivar" component={MainMotivar} options={{ headerShown: false }} />
-        <Stack.Screen name="MainVantagem" component={MainVantagem} options={{ headerShown: false }} />
+        <Stack.Screen name="mainAcompanhar" component={mainAcompanhar} />
+        <Stack.Screen name="mainMotivar" component={mainMotivar} options={{ headerShown: false }} />
+        <Stack.Screen name="mainVantagem" component={mainVantagem} options={{ headerShown: false }} />
 
       {/* gp1 */}
 

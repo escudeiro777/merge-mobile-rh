@@ -19,10 +19,10 @@ import {
 
 const Tab = createBottomTabNavigator();
 
-import Atividades from "../atividades/Atividades.js";
-import MinhasAtividades from "../minhasAtividades/MinhasAtividades2";
-import MinhasTabBar from "../minhasAtividades/MinhasTabBar.js";
-import RankingGp1 from "../rankingGp1/RankingGp1.js";
+import Atividades from "../atividades/atividades.js";
+import MinhasAtividades from "../minhasAtividades/minhasAtividades.js";
+// import MinhasTabBar from "../minhasAtividades/minhasTabBar.js";
+import RankingGp1 from "../ranking/ranking.js"
 import Perfil from "../perfil/perfil.js";
 import Redirecionar from "../redirecionamento/redirecionamento.js";
 

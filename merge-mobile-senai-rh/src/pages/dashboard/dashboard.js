@@ -23,10 +23,10 @@ import jwtDecode from "jwt-decode";
 
 import { BarChart, XAxis, ProgressCircle, Grid } from "react-native-svg-charts";
 
-import GrafHistSatisfacao from './GrafHistSatisfacao.js'
+import GrafHistSatisfacao from './grafHistStisfacao.js'
 
 //Services
-import api from "../../services/api";
+import api from "../../services/apiGp3";
 import apiGp1 from "../../services/apiGp1";
 
 // Fonts

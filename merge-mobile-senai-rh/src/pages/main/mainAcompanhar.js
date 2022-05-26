@@ -14,8 +14,8 @@ import {
 import Redirecionar from "../redirecionamento/redirecionamento.js";
 import Dashboard from "../dashboard/dashboard.js";
 import Perfil from "../perfil/perfil.js";
-import Feedback from "../democratizacao/ListarFeedbacks.js";
-import Decisao from "../democratizacao/ListarDecisao.js";
+import Feedback from "../democratizacao/listarFeedback.js";
+import Decisao from "../democratizacao/listarDecisao.js";
 
 const Tab = createBottomTabNavigator();
 

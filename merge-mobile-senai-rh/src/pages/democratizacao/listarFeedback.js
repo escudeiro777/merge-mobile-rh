@@ -29,7 +29,7 @@ import {
 } from '@expo-google-fonts/quicksand';
 
 // Services
-import api from "../../services/api";
+import api from "../../services/apiGp3";
 
 export default function ListaFeedback() {
 
@@ -128,7 +128,7 @@ export default function ListaFeedback() {
         <View style={styles.header}>
 
           <Image
-            source={require("../../../assets/imgMobile/logo_2S.png")}
+            source={require("../../../assets/img-geral/logo_2S.png")}
             style={styles.imgLogo}
           />
 

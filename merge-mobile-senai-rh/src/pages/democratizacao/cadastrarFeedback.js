@@ -24,7 +24,7 @@ import { useNavigation } from "@react-navigation/native";
 
 
 // Services
-import api from '../../services/api';
+import api from "../../services/apiGp3";
 
 // Fonts
 import {
@@ -280,7 +280,7 @@ export default function CadastroFeedback({ route }) {
       <View style={styles.container}>
 
         <View style={styles.mainHeader}>
-          <Image style={styles.logoSenai} source={require("../../../assets/imgMobile/logo_2S.png")} resizeMode="contain" />
+          <Image style={styles.logoSenai} source={require("../../../assets/img-geral/logo_2S.png")} resizeMode="contain" />
         </View>
 
         <Text style={styles.tituloDemocratizacao}>Democratização</Text>
